@@ -1,0 +1,5 @@
+string = str(input())
+first=string.find("h")
+last=string.rfind("h")
+finalstring = string.replace(string[first:last+1], "")
+print(finalstring)
